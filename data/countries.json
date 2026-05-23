@@ -1,0 +1,591 @@
+[
+  {
+    "id": "AFG",
+    "nama": "Afghanistan",
+    "nama_resmi": "Islamic Republic of Afghanistan",
+    "ibukota": "Kabul",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "populasi": 43844000,
+    "languages": [
+      {
+        "kode": "prs",
+        "nama": "Dari"
+      },
+      {
+        "kode": "pus",
+        "nama": "Pashto"
+      },
+      {
+        "kode": "tuk",
+        "nama": "Turkmen"
+      }
+    ],
+    "currencies": [
+      {
+        "kode": "AFN",
+        "nama": "Afghan afghani",
+        "simbol": "؋"
+      }
+    ]
+  },
+  {
+    "id": "ALB",
+    "nama": "Albania",
+    "nama_resmi": "Republic of Albania",
+    "ibukota": "Tirana",
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "populasi": 2363314,
+    "languages": [
+      {
+        "kode": "sqi",
+        "nama": "Albanian"
+      }
+    ],
+    "currencies": [
+      {
+        "kode": "ALL",
+        "nama": "Albanian lek",
+        "simbol": "L"
+      }
+    ]
+  },
+  {
+    "id": "DZA",
+    "nama": "Algeria",
+    "nama_resmi": "People's Democratic Republic of Algeria",
+    "ibukota": "Algiers",
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "populasi": 47400000,
+    "languages": [
+      {
+        "kode": "ara",
+        "nama": "Arabic"
+      }
+    ],
+    "currencies": [
+      {
+        "kode": "DZD",
+        "nama": "Algerian dinar",
+        "simbol": "د.ج"
+      }
+    ]
+  },
+  {
+    "id": "ASM",
+    "nama": "American Samoa",
+    "nama_resmi": "American Samoa",
+    "ibukota": "Pago Pago",
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "populasi": 49710,
+    "languages": [
+      {
+        "kode": "eng",
+        "nama": "English"
+      },
+      {
+        "kode": "smo",
+        "nama": "Samoan"
+      }
+    ],
+    "currencies": [
+      {
+        "kode": "USD",
+        "nama": "United States dollar",
+        "simbol": "$"
+      }
+    ]
+  },
+  {
+    "id": "AND",
+    "nama": "Andorra",
+    "nama_resmi": "Principality of Andorra",
+    "ibukota": "Andorra la Vella",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "populasi": 88406,
+    "languages": [
+      {
+        "kode": "cat",
+        "nama": "Catalan"
+      }
+    ],
+    "currencies": [
+      {
+        "kode": "EUR",
+        "nama": "euro",
+        "simbol": "€"
+      }
+    ]
+  },
+  {
+    "id": "AGO",
+    "nama": "Angola",
+    "nama_resmi": "Republic of Angola",
+    "ibukota": "Luanda",
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "populasi": 36170961,
+    "languages": [
+      {
+        "kode": "por",
+        "nama": "Portuguese"
+      }
+    ],
+    "currencies": [
+      {
+        "kode": "AOA",
+        "nama": "Angolan kwanza",
+        "simbol": "Kz"
+      }
+    ]
+  },
+  {
+    "id": "AIA",
+    "nama": "Anguilla",
+    "nama_resmi": "Anguilla",
+    "ibukota": "The Valley",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "populasi": 16010,
+    "languages": [
+      {
+        "kode": "eng",
+        "nama": "English"
+      }
+    ],
+    "currencies": [
+      {
+        "kode": "XCD",
+        "nama": "Eastern Caribbean dollar",
+        "simbol": "$"
+      }
+    ]
+  },
+  {
+    "id": "ATA",
+    "nama": "Antarctica",
+    "nama_resmi": "Antarctica",
+    "ibukota": "",
+    "region": "Antarctic",
+    "subregion": "",
+    "populasi": 1300,
+    "languages": [],
+    "currencies": []
+  },
+  {
+    "id": "ATG",
+    "nama": "Antigua and Barbuda",
+    "nama_resmi": "Antigua and Barbuda",
+    "ibukota": "Saint John's",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "populasi": 103603,
+    "languages": [
+      {
+        "kode": "eng",
+        "nama": "English"
+      }
+    ],
+    "currencies": [
+      {
+        "kode": "XCD",
+        "nama": "Eastern Caribbean dollar",
+        "simbol": "$"
+      }
+    ]
+  },
+  {
+    "id": "ARG",
+    "nama": "Argentina",
+    "nama_resmi": "Argentine Republic",
+    "ibukota": "Buenos Aires",
+    "region": "Americas",
+    "subregion": "South America",
+    "populasi": 46735004,
+    "languages": [
+      {
+        "kode": "grn",
+        "nama": "Guaraní"
+      },
+      {
+        "kode": "spa",
+        "nama": "Spanish"
+      }
+    ],
+    "currencies": [
+      {
+        "kode": "ARS",
+        "nama": "Argentine peso",
+        "simbol": "$"
+      }
+    ]
+  },
+  {
+    "id": "ARM",
+    "nama": "Armenia",
+    "nama_resmi": "Republic of Armenia",
+    "ibukota": "Yerevan",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "populasi": 3076200,
+    "languages": [
+      {
+        "kode": "hye",
+        "nama": "Armenian"
+      }
+    ],
+    "currencies": [
+      {
+        "kode": "AMD",
+        "nama": "Armenian dram",
+        "simbol": "֏"
+      }
+    ]
+  },
+  {
+    "id": "ABW",
+    "nama": "Aruba",
+    "nama_resmi": "Aruba",
+    "ibukota": "Oranjestad",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "populasi": 107566,
+    "languages": [
+      {
+        "kode": "nld",
+        "nama": "Dutch"
+      },
+      {
+        "kode": "pap",
+        "nama": "Papiamento"
+      }
+    ],
+    "currencies": [
+      {
+        "kode": "AWG",
+        "nama": "Aruban florin",
+        "simbol": "ƒ"
+      }
+    ]
+  },
+  {
+    "id": "AUS",
+    "nama": "Australia",
+    "nama_resmi": "Commonwealth of Australia",
+    "ibukota": "Canberra",
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "populasi": 27536874,
+    "languages": [
+      {
+        "kode": "eng",
+        "nama": "English"
+      }
+    ],
+    "currencies": [
+      {
+        "kode": "AUD",
+        "nama": "Australian dollar",
+        "simbol": "$"
+      }
+    ]
+  },
+  {
+    "id": "AUT",
+    "nama": "Austria",
+    "nama_resmi": "Republic of Austria",
+    "ibukota": "Vienna",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "populasi": 9200931,
+    "languages": [
+      {
+        "kode": "deu",
+        "nama": "German"
+      }
+    ],
+    "currencies": [
+      {
+        "kode": "EUR",
+        "nama": "euro",
+        "simbol": "€"
+      }
+    ]
+  },
+  {
+    "id": "AZE",
+    "nama": "Azerbaijan",
+    "nama_resmi": "Republic of Azerbaijan",
+    "ibukota": "Baku",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "populasi": 10241722,
+    "languages": [
+      {
+        "kode": "aze",
+        "nama": "Azerbaijani"
+      }
+    ],
+    "currencies": [
+      {
+        "kode": "AZN",
+        "nama": "Azerbaijani manat",
+        "simbol": "₼"
+      }
+    ]
+  },
+  {
+    "id": "BHS",
+    "nama": "Bahamas",
+    "nama_resmi": "Commonwealth of the Bahamas",
+    "ibukota": "Nassau",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "populasi": 398165,
+    "languages": [
+      {
+        "kode": "eng",
+        "nama": "English"
+      }
+    ],
+    "currencies": [
+      {
+        "kode": "BSD",
+        "nama": "Bahamian dollar",
+        "simbol": "$"
+      },
+      {
+        "kode": "USD",
+        "nama": "United States dollar",
+        "simbol": "$"
+      }
+    ]
+  },
+  {
+    "id": "BHR",
+    "nama": "Bahrain",
+    "nama_resmi": "Kingdom of Bahrain",
+    "ibukota": "Manama",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "populasi": 1594654,
+    "languages": [
+      {
+        "kode": "ara",
+        "nama": "Arabic"
+      }
+    ],
+    "currencies": [
+      {
+        "kode": "BHD",
+        "nama": "Bahraini dinar",
+        "simbol": ".د.ب"
+      }
+    ]
+  },
+  {
+    "id": "BGD",
+    "nama": "Bangladesh",
+    "nama_resmi": "People's Republic of Bangladesh",
+    "ibukota": "Dhaka",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "populasi": 169828911,
+    "languages": [
+      {
+        "kode": "ben",
+        "nama": "Bengali"
+      }
+    ],
+    "currencies": [
+      {
+        "kode": "BDT",
+        "nama": "Bangladeshi taka",
+        "simbol": "৳"
+      }
+    ]
+  },
+  {
+    "id": "BRB",
+    "nama": "Barbados",
+    "nama_resmi": "Barbados",
+    "ibukota": "Bridgetown",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "populasi": 267800,
+    "languages": [
+      {
+        "kode": "eng",
+        "nama": "English"
+      }
+    ],
+    "currencies": [
+      {
+        "kode": "BBD",
+        "nama": "Barbadian dollar",
+        "simbol": "$"
+      }
+    ]
+  },
+  {
+    "id": "BLR",
+    "nama": "Belarus",
+    "nama_resmi": "Republic of Belarus",
+    "ibukota": "Minsk",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "populasi": 9109280,
+    "languages": [
+      {
+        "kode": "bel",
+        "nama": "Belarusian"
+      },
+      {
+        "kode": "rus",
+        "nama": "Russian"
+      }
+    ],
+    "currencies": [
+      {
+        "kode": "BYN",
+        "nama": "Belarusian ruble",
+        "simbol": "Br"
+      }
+    ]
+  },
+  {
+    "id": "BEL",
+    "nama": "Belgium",
+    "nama_resmi": "Kingdom of Belgium",
+    "ibukota": "Brussels",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "populasi": 11825551,
+    "languages": [
+      {
+        "kode": "deu",
+        "nama": "German"
+      },
+      {
+        "kode": "fra",
+        "nama": "French"
+      },
+      {
+        "kode": "nld",
+        "nama": "Dutch"
+      }
+    ],
+    "currencies": [
+      {
+        "kode": "EUR",
+        "nama": "euro",
+        "simbol": "€"
+      }
+    ]
+  },
+  {
+    "id": "BLZ",
+    "nama": "Belize",
+    "nama_resmi": "Belize",
+    "ibukota": "Belmopan",
+    "region": "Americas",
+    "subregion": "Central America",
+    "populasi": 417634,
+    "languages": [
+      {
+        "kode": "bjz",
+        "nama": "Belizean Creole"
+      },
+      {
+        "kode": "eng",
+        "nama": "English"
+      },
+      {
+        "kode": "spa",
+        "nama": "Spanish"
+      }
+    ],
+    "currencies": [
+      {
+        "kode": "BZD",
+        "nama": "Belize dollar",
+        "simbol": "$"
+      }
+    ]
+  },
+  {
+    "id": "BEN",
+    "nama": "Benin",
+    "nama_resmi": "Republic of Benin",
+    "ibukota": "Porto-Novo",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "populasi": 13224860,
+    "languages": [
+      {
+        "kode": "fra",
+        "nama": "French"
+      }
+    ],
+    "currencies": [
+      {
+        "kode": "XOF",
+        "nama": "West African CFA franc",
+        "simbol": "Fr"
+      }
+    ]
+  },
+  {
+    "id": "BMU",
+    "nama": "Bermuda",
+    "nama_resmi": "Bermuda",
+    "ibukota": "Hamilton",
+    "region": "Americas",
+    "subregion": "North America",
+    "populasi": 64055,
+    "languages": [
+      {
+        "kode": "eng",
+        "nama": "English"
+      }
+    ],
+    "currencies": [
+      {
+        "kode": "BMD",
+        "nama": "Bermudian dollar",
+        "simbol": "$"
+      }
+    ]
+  },
+  {
+    "id": "BTN",
+    "nama": "Bhutan",
+    "nama_resmi": "Kingdom of Bhutan",
+    "ibukota": "Thimphu",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "populasi": 784043,
+    "languages": [
+      {
+        "kode": "dzo",
+        "nama": "Dzongkha"
+      }
+    ],
+    "currencies": [
+      {
+        "kode": "BTN",
+        "nama": "Bhutanese ngultrum",
+        "simbol": "Nu."
+      },
+      {
+        "kode": "INR",
+        "nama": "Indian rupee",
+        "simbol": "₹"
+      }
+    ]
+  }
+]
