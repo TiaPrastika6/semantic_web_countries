@@ -1,4 +1,4 @@
-from modules.akusisi_data import get_data
+from modules.akuisisi_data import get_data
 from modules.converter_rdf import convert_to_rdf
 
 

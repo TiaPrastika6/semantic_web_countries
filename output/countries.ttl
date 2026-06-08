@@ -16,7 +16,6 @@ country:Region a rdfs:Class ;
     rdfs:label "Region"^^xsd:string .
 
 country:ABW a country:Country ;
-    rdfs:label "Aruba"^^xsd:string ;
     country:capital "Oranjestad"^^xsd:string ;
     country:countryCode "ABW"^^xsd:string ;
     country:countryName "Aruba"^^xsd:string ;
@@ -28,7 +27,6 @@ country:ABW a country:Country ;
     country:usesCurrency country:Currency_AWG .
 
 country:AFG a country:Country ;
-    rdfs:label "Afghanistan"^^xsd:string ;
     country:capital "Kabul"^^xsd:string ;
     country:countryCode "AFG"^^xsd:string ;
     country:countryName "Afghanistan"^^xsd:string ;
@@ -41,7 +39,6 @@ country:AFG a country:Country ;
     country:usesCurrency country:Currency_AFN .
 
 country:AGO a country:Country ;
-    rdfs:label "Angola"^^xsd:string ;
     country:capital "Luanda"^^xsd:string ;
     country:countryCode "AGO"^^xsd:string ;
     country:countryName "Angola"^^xsd:string ;
@@ -52,7 +49,6 @@ country:AGO a country:Country ;
     country:usesCurrency country:Currency_AOA .
 
 country:AIA a country:Country ;
-    rdfs:label "Anguilla"^^xsd:string ;
     country:capital "The Valley"^^xsd:string ;
     country:countryCode "AIA"^^xsd:string ;
     country:countryName "Anguilla"^^xsd:string ;
@@ -63,7 +59,6 @@ country:AIA a country:Country ;
     country:usesCurrency country:Currency_XCD .
 
 country:ALB a country:Country ;
-    rdfs:label "Albania"^^xsd:string ;
     country:capital "Tirana"^^xsd:string ;
     country:countryCode "ALB"^^xsd:string ;
     country:countryName "Albania"^^xsd:string ;
@@ -74,7 +69,6 @@ country:ALB a country:Country ;
     country:usesCurrency country:Currency_ALL .
 
 country:AND a country:Country ;
-    rdfs:label "Andorra"^^xsd:string ;
     country:capital "Andorra la Vella"^^xsd:string ;
     country:countryCode "AND"^^xsd:string ;
     country:countryName "Andorra"^^xsd:string ;
@@ -85,7 +79,6 @@ country:AND a country:Country ;
     country:usesCurrency country:Currency_EUR .
 
 country:ARG a country:Country ;
-    rdfs:label "Argentina"^^xsd:string ;
     country:capital "Buenos Aires"^^xsd:string ;
     country:countryCode "ARG"^^xsd:string ;
     country:countryName "Argentina"^^xsd:string ;
@@ -97,7 +90,6 @@ country:ARG a country:Country ;
     country:usesCurrency country:Currency_ARS .
 
 country:ARM a country:Country ;
-    rdfs:label "Armenia"^^xsd:string ;
     country:capital "Yerevan"^^xsd:string ;
     country:countryCode "ARM"^^xsd:string ;
     country:countryName "Armenia"^^xsd:string ;
@@ -108,7 +100,6 @@ country:ARM a country:Country ;
     country:usesCurrency country:Currency_AMD .
 
 country:ASM a country:Country ;
-    rdfs:label "American Samoa"^^xsd:string ;
     country:capital "Pago Pago"^^xsd:string ;
     country:countryCode "ASM"^^xsd:string ;
     country:countryName "American Samoa"^^xsd:string ;
@@ -120,7 +111,6 @@ country:ASM a country:Country ;
     country:usesCurrency country:Currency_USD .
 
 country:ATA a country:Country ;
-    rdfs:label "Antarctica"^^xsd:string ;
     country:capital ""^^xsd:string ;
     country:countryCode "ATA"^^xsd:string ;
     country:countryName "Antarctica"^^xsd:string ;
@@ -129,7 +119,6 @@ country:ATA a country:Country ;
     country:population 1300 .
 
 country:ATG a country:Country ;
-    rdfs:label "Antigua and Barbuda"^^xsd:string ;
     country:capital "Saint John's"^^xsd:string ;
     country:countryCode "ATG"^^xsd:string ;
     country:countryName "Antigua and Barbuda"^^xsd:string ;
@@ -140,7 +129,6 @@ country:ATG a country:Country ;
     country:usesCurrency country:Currency_XCD .
 
 country:AUS a country:Country ;
-    rdfs:label "Australia"^^xsd:string ;
     country:capital "Canberra"^^xsd:string ;
     country:countryCode "AUS"^^xsd:string ;
     country:countryName "Australia"^^xsd:string ;
@@ -151,7 +139,6 @@ country:AUS a country:Country ;
     country:usesCurrency country:Currency_AUD .
 
 country:AUT a country:Country ;
-    rdfs:label "Austria"^^xsd:string ;
     country:capital "Vienna"^^xsd:string ;
     country:countryCode "AUT"^^xsd:string ;
     country:countryName "Austria"^^xsd:string ;
@@ -162,7 +149,6 @@ country:AUT a country:Country ;
     country:usesCurrency country:Currency_EUR .
 
 country:AZE a country:Country ;
-    rdfs:label "Azerbaijan"^^xsd:string ;
     country:capital "Baku"^^xsd:string ;
     country:countryCode "AZE"^^xsd:string ;
     country:countryName "Azerbaijan"^^xsd:string ;
@@ -173,7 +159,6 @@ country:AZE a country:Country ;
     country:usesCurrency country:Currency_AZN .
 
 country:BEL a country:Country ;
-    rdfs:label "Belgium"^^xsd:string ;
     country:capital "Brussels"^^xsd:string ;
     country:countryCode "BEL"^^xsd:string ;
     country:countryName "Belgium"^^xsd:string ;
@@ -186,7 +171,6 @@ country:BEL a country:Country ;
     country:usesCurrency country:Currency_EUR .
 
 country:BEN a country:Country ;
-    rdfs:label "Benin"^^xsd:string ;
     country:capital "Porto-Novo"^^xsd:string ;
     country:countryCode "BEN"^^xsd:string ;
     country:countryName "Benin"^^xsd:string ;
@@ -197,7 +181,6 @@ country:BEN a country:Country ;
     country:usesCurrency country:Currency_XOF .
 
 country:BGD a country:Country ;
-    rdfs:label "Bangladesh"^^xsd:string ;
     country:capital "Dhaka"^^xsd:string ;
     country:countryCode "BGD"^^xsd:string ;
     country:countryName "Bangladesh"^^xsd:string ;
@@ -208,7 +191,6 @@ country:BGD a country:Country ;
     country:usesCurrency country:Currency_BDT .
 
 country:BHR a country:Country ;
-    rdfs:label "Bahrain"^^xsd:string ;
     country:capital "Manama"^^xsd:string ;
     country:countryCode "BHR"^^xsd:string ;
     country:countryName "Bahrain"^^xsd:string ;
@@ -219,7 +201,6 @@ country:BHR a country:Country ;
     country:usesCurrency country:Currency_BHD .
 
 country:BHS a country:Country ;
-    rdfs:label "Bahamas"^^xsd:string ;
     country:capital "Nassau"^^xsd:string ;
     country:countryCode "BHS"^^xsd:string ;
     country:countryName "Bahamas"^^xsd:string ;
@@ -231,7 +212,6 @@ country:BHS a country:Country ;
         country:Currency_USD .
 
 country:BLR a country:Country ;
-    rdfs:label "Belarus"^^xsd:string ;
     country:capital "Minsk"^^xsd:string ;
     country:countryCode "BLR"^^xsd:string ;
     country:countryName "Belarus"^^xsd:string ;
@@ -243,7 +223,6 @@ country:BLR a country:Country ;
     country:usesCurrency country:Currency_BYN .
 
 country:BLZ a country:Country ;
-    rdfs:label "Belize"^^xsd:string ;
     country:capital "Belmopan"^^xsd:string ;
     country:countryCode "BLZ"^^xsd:string ;
     country:countryName "Belize"^^xsd:string ;
@@ -256,7 +235,6 @@ country:BLZ a country:Country ;
     country:usesCurrency country:Currency_BZD .
 
 country:BMU a country:Country ;
-    rdfs:label "Bermuda"^^xsd:string ;
     country:capital "Hamilton"^^xsd:string ;
     country:countryCode "BMU"^^xsd:string ;
     country:countryName "Bermuda"^^xsd:string ;
@@ -267,7 +245,6 @@ country:BMU a country:Country ;
     country:usesCurrency country:Currency_BMD .
 
 country:BRB a country:Country ;
-    rdfs:label "Barbados"^^xsd:string ;
     country:capital "Bridgetown"^^xsd:string ;
     country:countryCode "BRB"^^xsd:string ;
     country:countryName "Barbados"^^xsd:string ;
@@ -278,7 +255,6 @@ country:BRB a country:Country ;
     country:usesCurrency country:Currency_BBD .
 
 country:BTN a country:Country ;
-    rdfs:label "Bhutan"^^xsd:string ;
     country:capital "Thimphu"^^xsd:string ;
     country:countryCode "BTN"^^xsd:string ;
     country:countryName "Bhutan"^^xsd:string ;
@@ -290,7 +266,6 @@ country:BTN a country:Country ;
         country:Currency_INR .
 
 country:DZA a country:Country ;
-    rdfs:label "Algeria"^^xsd:string ;
     country:capital "Algiers"^^xsd:string ;
     country:countryCode "DZA"^^xsd:string ;
     country:countryName "Algeria"^^xsd:string ;
@@ -320,20 +295,10 @@ country:currencyCode a rdf:Property ;
     rdfs:domain country:Currency ;
     rdfs:range xsd:string .
 
-country:currencyName a rdf:Property ;
-    rdfs:label "Nama mata uang"^^xsd:string ;
-    rdfs:domain country:Currency ;
-    rdfs:range xsd:string .
-
 country:hasLanguage a rdf:Property ;
     rdfs:label "Memiliki bahasa"^^xsd:string ;
     rdfs:domain country:Country ;
     rdfs:range country:Language .
-
-country:languageName a rdf:Property ;
-    rdfs:label "Nama bahasa"^^xsd:string ;
-    rdfs:domain country:Language ;
-    rdfs:range xsd:string .
 
 country:locatedInRegion a rdf:Property ;
     rdfs:label "Berada di region"^^xsd:string ;
@@ -350,11 +315,6 @@ country:population a rdf:Property ;
     rdfs:domain country:Country ;
     rdfs:range xsd:integer .
 
-country:regionName a rdf:Property ;
-    rdfs:label "Nama region"^^xsd:string ;
-    rdfs:domain country:Region ;
-    rdfs:range xsd:string .
-
 country:usesCurrency a rdf:Property ;
     rdfs:label "Menggunakan mata uang"^^xsd:string ;
     rdfs:domain country:Country ;
@@ -362,223 +322,173 @@ country:usesCurrency a rdf:Property ;
 
 country:Currency_AFN a country:Currency ;
     rdfs:label "Afghan afghani"^^xsd:string ;
-    country:currencyCode "AFN"^^xsd:string ;
-    country:currencyName "Afghan afghani"^^xsd:string .
+    country:currencyCode "AFN"^^xsd:string .
 
 country:Currency_ALL a country:Currency ;
     rdfs:label "Albanian lek"^^xsd:string ;
-    country:currencyCode "ALL"^^xsd:string ;
-    country:currencyName "Albanian lek"^^xsd:string .
+    country:currencyCode "ALL"^^xsd:string .
 
 country:Currency_AMD a country:Currency ;
     rdfs:label "Armenian dram"^^xsd:string ;
-    country:currencyCode "AMD"^^xsd:string ;
-    country:currencyName "Armenian dram"^^xsd:string .
+    country:currencyCode "AMD"^^xsd:string .
 
 country:Currency_AOA a country:Currency ;
     rdfs:label "Angolan kwanza"^^xsd:string ;
-    country:currencyCode "AOA"^^xsd:string ;
-    country:currencyName "Angolan kwanza"^^xsd:string .
+    country:currencyCode "AOA"^^xsd:string .
 
 country:Currency_ARS a country:Currency ;
     rdfs:label "Argentine peso"^^xsd:string ;
-    country:currencyCode "ARS"^^xsd:string ;
-    country:currencyName "Argentine peso"^^xsd:string .
+    country:currencyCode "ARS"^^xsd:string .
 
 country:Currency_AUD a country:Currency ;
     rdfs:label "Australian dollar"^^xsd:string ;
-    country:currencyCode "AUD"^^xsd:string ;
-    country:currencyName "Australian dollar"^^xsd:string .
+    country:currencyCode "AUD"^^xsd:string .
 
 country:Currency_AWG a country:Currency ;
     rdfs:label "Aruban florin"^^xsd:string ;
-    country:currencyCode "AWG"^^xsd:string ;
-    country:currencyName "Aruban florin"^^xsd:string .
+    country:currencyCode "AWG"^^xsd:string .
 
 country:Currency_AZN a country:Currency ;
     rdfs:label "Azerbaijani manat"^^xsd:string ;
-    country:currencyCode "AZN"^^xsd:string ;
-    country:currencyName "Azerbaijani manat"^^xsd:string .
+    country:currencyCode "AZN"^^xsd:string .
 
 country:Currency_BBD a country:Currency ;
     rdfs:label "Barbadian dollar"^^xsd:string ;
-    country:currencyCode "BBD"^^xsd:string ;
-    country:currencyName "Barbadian dollar"^^xsd:string .
+    country:currencyCode "BBD"^^xsd:string .
 
 country:Currency_BDT a country:Currency ;
     rdfs:label "Bangladeshi taka"^^xsd:string ;
-    country:currencyCode "BDT"^^xsd:string ;
-    country:currencyName "Bangladeshi taka"^^xsd:string .
+    country:currencyCode "BDT"^^xsd:string .
 
 country:Currency_BHD a country:Currency ;
     rdfs:label "Bahraini dinar"^^xsd:string ;
-    country:currencyCode "BHD"^^xsd:string ;
-    country:currencyName "Bahraini dinar"^^xsd:string .
+    country:currencyCode "BHD"^^xsd:string .
 
 country:Currency_BMD a country:Currency ;
     rdfs:label "Bermudian dollar"^^xsd:string ;
-    country:currencyCode "BMD"^^xsd:string ;
-    country:currencyName "Bermudian dollar"^^xsd:string .
+    country:currencyCode "BMD"^^xsd:string .
 
 country:Currency_BSD a country:Currency ;
     rdfs:label "Bahamian dollar"^^xsd:string ;
-    country:currencyCode "BSD"^^xsd:string ;
-    country:currencyName "Bahamian dollar"^^xsd:string .
+    country:currencyCode "BSD"^^xsd:string .
 
 country:Currency_BTN a country:Currency ;
     rdfs:label "Bhutanese ngultrum"^^xsd:string ;
-    country:currencyCode "BTN"^^xsd:string ;
-    country:currencyName "Bhutanese ngultrum"^^xsd:string .
+    country:currencyCode "BTN"^^xsd:string .
 
 country:Currency_BYN a country:Currency ;
     rdfs:label "Belarusian ruble"^^xsd:string ;
-    country:currencyCode "BYN"^^xsd:string ;
-    country:currencyName "Belarusian ruble"^^xsd:string .
+    country:currencyCode "BYN"^^xsd:string .
 
 country:Currency_BZD a country:Currency ;
     rdfs:label "Belize dollar"^^xsd:string ;
-    country:currencyCode "BZD"^^xsd:string ;
-    country:currencyName "Belize dollar"^^xsd:string .
+    country:currencyCode "BZD"^^xsd:string .
 
 country:Currency_DZD a country:Currency ;
     rdfs:label "Algerian dinar"^^xsd:string ;
-    country:currencyCode "DZD"^^xsd:string ;
-    country:currencyName "Algerian dinar"^^xsd:string .
+    country:currencyCode "DZD"^^xsd:string .
 
 country:Currency_INR a country:Currency ;
     rdfs:label "Indian rupee"^^xsd:string ;
-    country:currencyCode "INR"^^xsd:string ;
-    country:currencyName "Indian rupee"^^xsd:string .
+    country:currencyCode "INR"^^xsd:string .
 
 country:Currency_XOF a country:Currency ;
     rdfs:label "West African CFA franc"^^xsd:string ;
-    country:currencyCode "XOF"^^xsd:string ;
-    country:currencyName "West African CFA franc"^^xsd:string .
+    country:currencyCode "XOF"^^xsd:string .
 
 country:Language_Albanian a country:Language ;
-    rdfs:label "Albanian"^^xsd:string ;
-    country:languageName "Albanian"^^xsd:string .
+    rdfs:label "Albanian"^^xsd:string .
 
 country:Language_Armenian a country:Language ;
-    rdfs:label "Armenian"^^xsd:string ;
-    country:languageName "Armenian"^^xsd:string .
+    rdfs:label "Armenian"^^xsd:string .
 
 country:Language_Azerbaijani a country:Language ;
-    rdfs:label "Azerbaijani"^^xsd:string ;
-    country:languageName "Azerbaijani"^^xsd:string .
+    rdfs:label "Azerbaijani"^^xsd:string .
 
 country:Language_Belarusian a country:Language ;
-    rdfs:label "Belarusian"^^xsd:string ;
-    country:languageName "Belarusian"^^xsd:string .
+    rdfs:label "Belarusian"^^xsd:string .
 
 country:Language_Belizean_Creole a country:Language ;
-    rdfs:label "Belizean Creole"^^xsd:string ;
-    country:languageName "Belizean Creole"^^xsd:string .
+    rdfs:label "Belizean Creole"^^xsd:string .
 
 country:Language_Bengali a country:Language ;
-    rdfs:label "Bengali"^^xsd:string ;
-    country:languageName "Bengali"^^xsd:string .
+    rdfs:label "Bengali"^^xsd:string .
 
 country:Language_Catalan a country:Language ;
-    rdfs:label "Catalan"^^xsd:string ;
-    country:languageName "Catalan"^^xsd:string .
+    rdfs:label "Catalan"^^xsd:string .
 
 country:Language_Dari a country:Language ;
-    rdfs:label "Dari"^^xsd:string ;
-    country:languageName "Dari"^^xsd:string .
+    rdfs:label "Dari"^^xsd:string .
 
 country:Language_Dzongkha a country:Language ;
-    rdfs:label "Dzongkha"^^xsd:string ;
-    country:languageName "Dzongkha"^^xsd:string .
+    rdfs:label "Dzongkha"^^xsd:string .
 
 country:Language_Guaran a country:Language ;
-    rdfs:label "Guaraní"^^xsd:string ;
-    country:languageName "Guaraní"^^xsd:string .
+    rdfs:label "Guaraní"^^xsd:string .
 
 country:Language_Papiamento a country:Language ;
-    rdfs:label "Papiamento"^^xsd:string ;
-    country:languageName "Papiamento"^^xsd:string .
+    rdfs:label "Papiamento"^^xsd:string .
 
 country:Language_Pashto a country:Language ;
-    rdfs:label "Pashto"^^xsd:string ;
-    country:languageName "Pashto"^^xsd:string .
+    rdfs:label "Pashto"^^xsd:string .
 
 country:Language_Portuguese a country:Language ;
-    rdfs:label "Portuguese"^^xsd:string ;
-    country:languageName "Portuguese"^^xsd:string .
+    rdfs:label "Portuguese"^^xsd:string .
 
 country:Language_Russian a country:Language ;
-    rdfs:label "Russian"^^xsd:string ;
-    country:languageName "Russian"^^xsd:string .
+    rdfs:label "Russian"^^xsd:string .
 
 country:Language_Samoan a country:Language ;
-    rdfs:label "Samoan"^^xsd:string ;
-    country:languageName "Samoan"^^xsd:string .
+    rdfs:label "Samoan"^^xsd:string .
 
 country:Language_Turkmen a country:Language ;
-    rdfs:label "Turkmen"^^xsd:string ;
-    country:languageName "Turkmen"^^xsd:string .
+    rdfs:label "Turkmen"^^xsd:string .
 
 country:Region_Antarctic a country:Region ;
-    rdfs:label "Antarctic"^^xsd:string ;
-    country:regionName "Antarctic"^^xsd:string .
+    rdfs:label "Antarctic"^^xsd:string .
 
 country:Currency_USD a country:Currency ;
     rdfs:label "United States dollar"^^xsd:string ;
-    country:currencyCode "USD"^^xsd:string ;
-    country:currencyName "United States dollar"^^xsd:string .
+    country:currencyCode "USD"^^xsd:string .
 
 country:Currency_XCD a country:Currency ;
     rdfs:label "Eastern Caribbean dollar"^^xsd:string ;
-    country:currencyCode "XCD"^^xsd:string ;
-    country:currencyName "Eastern Caribbean dollar"^^xsd:string .
+    country:currencyCode "XCD"^^xsd:string .
 
 country:Language_Arabic a country:Language ;
-    rdfs:label "Arabic"^^xsd:string ;
-    country:languageName "Arabic"^^xsd:string .
+    rdfs:label "Arabic"^^xsd:string .
 
 country:Language_Dutch a country:Language ;
-    rdfs:label "Dutch"^^xsd:string ;
-    country:languageName "Dutch"^^xsd:string .
+    rdfs:label "Dutch"^^xsd:string .
 
 country:Language_French a country:Language ;
-    rdfs:label "French"^^xsd:string ;
-    country:languageName "French"^^xsd:string .
+    rdfs:label "French"^^xsd:string .
 
 country:Language_German a country:Language ;
-    rdfs:label "German"^^xsd:string ;
-    country:languageName "German"^^xsd:string .
+    rdfs:label "German"^^xsd:string .
 
 country:Language_Spanish a country:Language ;
-    rdfs:label "Spanish"^^xsd:string ;
-    country:languageName "Spanish"^^xsd:string .
+    rdfs:label "Spanish"^^xsd:string .
 
 country:Region_Oceania a country:Region ;
-    rdfs:label "Oceania"^^xsd:string ;
-    country:regionName "Oceania"^^xsd:string .
+    rdfs:label "Oceania"^^xsd:string .
 
 country:Currency_EUR a country:Currency ;
     rdfs:label "euro"^^xsd:string ;
-    country:currencyCode "EUR"^^xsd:string ;
-    country:currencyName "euro"^^xsd:string .
+    country:currencyCode "EUR"^^xsd:string .
 
 country:Region_Africa a country:Region ;
-    rdfs:label "Africa"^^xsd:string ;
-    country:regionName "Africa"^^xsd:string .
+    rdfs:label "Africa"^^xsd:string .
 
 country:Region_Europe a country:Region ;
-    rdfs:label "Europe"^^xsd:string ;
-    country:regionName "Europe"^^xsd:string .
+    rdfs:label "Europe"^^xsd:string .
 
 country:Region_Asia a country:Region ;
-    rdfs:label "Asia"^^xsd:string ;
-    country:regionName "Asia"^^xsd:string .
+    rdfs:label "Asia"^^xsd:string .
 
 country:Language_English a country:Language ;
-    rdfs:label "English"^^xsd:string ;
-    country:languageName "English"^^xsd:string .
+    rdfs:label "English"^^xsd:string .
 
 country:Region_Americas a country:Region ;
-    rdfs:label "Americas"^^xsd:string ;
-    country:regionName "Americas"^^xsd:string .
+    rdfs:label "Americas"^^xsd:string .
 

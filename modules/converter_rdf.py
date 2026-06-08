@@ -50,10 +50,6 @@ def convert_to_rdf(data):
     add_data_property(g, EX.countryCode, "Kode negara", EX.Country, XSD.string)
     add_data_property(g, EX.capital, "Ibu kota", EX.Country, XSD.string)
     add_data_property(g, EX.population, "Populasi", EX.Country, XSD.integer)
-
-    add_data_property(g, EX.regionName, "Nama region", EX.Region, XSD.string)
-    add_data_property(g, EX.languageName, "Nama bahasa", EX.Language, XSD.string)
-    add_data_property(g, EX.currencyName, "Nama mata uang", EX.Currency, XSD.string)
     add_data_property(g, EX.currencyCode, "Kode mata uang", EX.Currency, XSD.string)
 
     add_object_property(g, EX.locatedInRegion, "Berada di region", EX.Country, EX.Region)
@@ -64,7 +60,6 @@ def convert_to_rdf(data):
         country_uri = EX[item["id"]]
 
         g.add((country_uri, RDF.type, EX.Country))
-        g.add((country_uri, RDFS.label, Literal(item["nama"], datatype=XSD.string)))
         g.add((country_uri, EX.countryName, Literal(item["nama"], datatype=XSD.string)))
         g.add((country_uri, EX.officialName, Literal(item["nama_resmi"], datatype=XSD.string)))
         g.add((country_uri, EX.countryCode, Literal(item["id"], datatype=XSD.string)))
@@ -74,21 +69,18 @@ def convert_to_rdf(data):
         region_uri = EX["Region_" + slug(item["region"])]
         g.add((region_uri, RDF.type, EX.Region))
         g.add((region_uri, RDFS.label, Literal(item["region"], datatype=XSD.string)))
-        g.add((region_uri, EX.regionName, Literal(item["region"], datatype=XSD.string)))
         g.add((country_uri, EX.locatedInRegion, region_uri))
 
         for language in item["languages"]:
             language_uri = EX["Language_" + slug(language["nama"])]
             g.add((language_uri, RDF.type, EX.Language))
             g.add((language_uri, RDFS.label, Literal(language["nama"], datatype=XSD.string)))
-            g.add((language_uri, EX.languageName, Literal(language["nama"], datatype=XSD.string)))
             g.add((country_uri, EX.hasLanguage, language_uri))
 
         for currency in item["currencies"]:
             currency_uri = EX["Currency_" + slug(currency["kode"])]
             g.add((currency_uri, RDF.type, EX.Currency))
             g.add((currency_uri, RDFS.label, Literal(currency["nama"], datatype=XSD.string)))
-            g.add((currency_uri, EX.currencyName, Literal(currency["nama"], datatype=XSD.string)))
             g.add((currency_uri, EX.currencyCode, Literal(currency["kode"], datatype=XSD.string)))
             g.add((country_uri, EX.usesCurrency, currency_uri))
 
