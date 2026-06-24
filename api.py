@@ -4,7 +4,7 @@ import requests
 
 app = FastAPI(
     title="REST API Semantic Web Negara",
-    description="API untuk mengambil data negara dari Apache Jena Fuseki menggunakan SPARQL",
+    description="API untuk mengambil data negara dari GraphDB menggunakan SPARQL",
     version="1.0.0"
 )
 
@@ -16,8 +16,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Sesuaikan dengan nama dataset di Apache Jena Fuseki.
-FUSEKI_QUERY_URL = "http://localhost:3030/negara/query"
+# Endpoint repository GraphDB
+SPARQL_ENDPOINT = "http://localhost:7200/repositories/countries"
 
 PREFIX = """
 PREFIX country: <https://tia-prastika.dev/countries#>
@@ -27,21 +27,19 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 
 def run_sparql_query(query: str):
-    """Mengirim query SPARQL ke Apache Jena Fuseki dan mengembalikan hasil JSON."""
+    """Mengirim query SPARQL ke GraphDB dan mengembalikan hasil JSON."""
     try:
         response = requests.get(
-            FUSEKI_QUERY_URL,
-            params={
-                "query": query,
-                "format": "json"
-            },
+            SPARQL_ENDPOINT,
+            params={"query": query},
+            headers={"Accept": "application/sparql-results+json"},
             timeout=15
         )
 
         if response.status_code != 200:
             raise HTTPException(
                 status_code=response.status_code,
-                detail=f"Gagal mengambil data dari Fuseki: {response.text}"
+                detail=f"Gagal mengambil data dari GraphDB: {response.text}"
             )
 
         return response.json()
@@ -49,7 +47,7 @@ def run_sparql_query(query: str):
     except requests.exceptions.RequestException as e:
         raise HTTPException(
             status_code=500,
-            detail=f"Tidak bisa terhubung ke Apache Jena Fuseki: {str(e)}"
+            detail=f"Tidak bisa terhubung ke GraphDB: {str(e)}"
         )
 
 
@@ -61,8 +59,10 @@ def binding_value(item: dict, key: str, default: str = ""):
 def home():
     return {
         "message": "REST API Semantic Web Negara berhasil berjalan",
-        "dataset_fuseki": FUSEKI_QUERY_URL,
-        "endpoint": [
+        "graph_database": "GraphDB",
+        "repository": "countries",
+        "sparql_endpoint": SPARQL_ENDPOINT,
+        "endpoints": [
             "/data",
             "/search?keyword=Asia",
             "/entity/AFG",
@@ -90,17 +90,17 @@ def get_all_countries():
 
         OPTIONAL {
             ?negara country:locatedInRegion ?regionUri .
-            ?regionUri country:regionName ?region .
+            ?regionUri rdfs:label ?region .
         }
 
         OPTIONAL {
             ?negara country:hasLanguage ?languageUri .
-            ?languageUri country:languageName ?bahasa .
+            ?languageUri rdfs:label ?bahasa .
         }
 
         OPTIONAL {
             ?negara country:usesCurrency ?currencyUri .
-            ?currencyUri country:currencyName ?mataUang .
+            ?currencyUri rdfs:label ?mataUang .
         }
     }
     GROUP BY ?kode ?nama ?namaResmi ?ibukota ?populasi ?region
@@ -134,7 +134,7 @@ def search_data(keyword: str = Query(..., description="Kata kunci pencarian")):
     """Mencari data RDF berdasarkan keyword pada subject, predicate, atau object."""
     safe_keyword = keyword.replace('"', '\\"')
 
-    query = f"""
+    query = PREFIX + f"""
     SELECT ?subject ?predicate ?object
     WHERE {{
         ?subject ?predicate ?object .
@@ -198,7 +198,7 @@ def get_entity_by_id(id: str):
 @app.get("/api/triples")
 def get_all_triples():
     """Menampilkan seluruh RDF triple dalam bentuk subject, predicate, object."""
-    query = """
+    query = PREFIX + """
     SELECT ?subject ?predicate ?object
     WHERE {
         ?subject ?predicate ?object .
